@@ -1,0 +1,6 @@
+num1 = input("please enter your number 1: ")
+num2 = input("please enter your number 2: ")
+num3 = input("please enter your number 3: ")
+print(int(num1) + int(num2) + int(num3))
+print(int(num1) * int(num2) * int(num3))
+print(int(num1) / int(num2) / int(num3))
