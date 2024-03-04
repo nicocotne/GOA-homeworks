@@ -149,9 +149,4 @@ circle(50)
 end_fill()
 
 
-
-
-
-
-
 exitonclick()
