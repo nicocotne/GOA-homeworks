@@ -1,15 +1,15 @@
-# def sum(i, index):
-#     try:
-#         if index >= 0 and index < len(i):
-#             return i[index]
-#         else:
-#             return "Invalid index!"
-#     except TypeError:
-#         return "Please enter an integer index!"
-# i = [10, 20, 30, 40, 50]
-# index = int(input("Enter the index: "))
-# result = sum(i, index)
-# print("Result:", result)
+def sum(i, index):
+    try:
+        if index >= 0 and index < len(i):
+            return i[index]
+        else:
+            return "Invalid index!"
+    except TypeError:
+        return "Please enter an integer index!"
+i = [10, 20, 30, 40, 50]
+index = int(input("Enter the index: "))
+result = sum(i, index)
+print("Result:", result)
 def sum_two_smallest_numbers(num):
     if len(num) < 2:
         return "List should have at least two elements"
